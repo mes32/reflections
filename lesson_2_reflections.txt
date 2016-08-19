@@ -27,3 +27,9 @@ Branches also allow you to give a meaningful name to a path through the history.
 ## How do the diagrams help you visualize the branch structure?
 
 The diagrams show you the branch structure without relying on your memory and imagination.
+
+## What is the result of merging two branches together? Why do we represetn it in hte diagram the
+way we do?
+
+The effect is that the two branches are reconciled and from then on become one branch. This is 
+represented as the two branches coming together.s
