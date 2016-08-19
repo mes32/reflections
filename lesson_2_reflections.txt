@@ -1,3 +1,11 @@
 ## What happens when you initialize a repository? Why do you need to do it?
 
 This creates an empty .git directory which will hold the information describing the repository.
+
+## How is the staging area different from the working directory and the repository? What value do
+you think it offers?
+
+In some sense it is more transitory (staging). It only tracks the existence of files I think rather
+than their contents the way the repository and workind directory will. It provides the advantage
+of allowing the user to take their time and check the progress of the project as they prepare to
+make a commit.
