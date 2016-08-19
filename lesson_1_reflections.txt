@@ -1,0 +1,38 @@
+## How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The command line utility diff is useful when debugging because it highlights differences and brings
+them to your attention. This conserves your attention by suppressing less useful information (i.e.
+all the lines that are identical between the files).
+
+## How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+
+It allows you to painlessly (little searching, checking, and debugging) reverse mistakes. If you
+do something terribly misguided or try something that didn't work out or accidentially introduce
+a subtle problem that you are having trouble finding you can just undo these problems.
+
+## What do you think are the pros and cons of manually choosing when to create a commit, like you
+do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of manually committing you can use your judgement as to when to commit and only commit when
+the code is in a sensible state and successfully compiling 
+Cons of manually committing you might forget to commit or choose to commit less often than you should
+
+## Why do you think some version control systems, like Git, allow saving multiple files in one 
+commit, while others, like Google Docs, treat each file separately?
+
+Saving each file separately is simpler and conceptually more straight forward. It probably makes 
+sense to track files this way unless you have a really compelling reason to track files together
+When the meaning of a group of files is strongly connected (as in source code) it makes more
+sense to track changes to all files together. Very often changes in one source code file 
+will require propigation of related changes to other source files in the same project.
+
+## How can you use the commands git log and git diff to view the history of files?
+
+Git log will list a history of all commits. Git diff will display the differences in source code files
+between two commits.
+
+## How might using version control make you more confident to make changes that could break something?
+
+Version control means that changes that might break something can be found relatively easily and once
+found can be undone very easily. This greatly lowers the possible down-side of making those changes.
