@@ -9,3 +9,21 @@ In some sense it is more transitory (staging). It only tracks the existence of f
 than their contents the way the repository and workind directory will. It provides the advantage
 of allowing the user to take their time and check the progress of the project as they prepare to
 make a commit.
+
+## How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows you a great deal of control over what files are included in which commits.
+Even if you have multiple files that have changed since the last commit with logically different
+changes in each file, the staging area would allow you to commit those changes separately.
+
+## What are some situations when branches would be helpful in keeping your history organized? How
+would branches help?
+
+Anytime you anticipate maintaining multiple versions of a project for a period of time, you would 
+want each version of the project on its own branch. Branches allow the history to diverge from a 
+common point. Branches provide a mechanism for quickly and easily switching between versions. 
+Branches also allow you to give a meaningful name to a path through the history.
+
+## How do the diagrams help you visualize the branch structure?
+
+The diagrams show you the branch structure without relying on your memory and imagination.
