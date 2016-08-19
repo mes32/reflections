@@ -32,4 +32,12 @@ The diagrams show you the branch structure without relying on your memory and im
 way we do?
 
 The effect is that the two branches are reconciled and from then on become one branch. This is 
-represented as the two branches coming together.s
+represented as the two branches coming together.
+
+## What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+A manual merge potentially involves looking at many many lines of code depending when the branches
+diverged. The only con I can think of with manual merging is that you might be out of practice 
+merging when conflicts are encountered.
+
+ 
