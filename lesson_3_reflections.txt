@@ -3,3 +3,10 @@
 A remote repository would be very useful when collaborating with someone else remotely. A 
 remote repository serves as a backup. It also provides an additional level of redundancy
 since the files are physically stored in two places.
+
+## Why might you want to always pull changes manually rather than having Git automatically stay
+up-to-date with your remote repository?
+
+If changes were automatic then code you are working on might change out from under you and cause
+confusion. Possibly this could work if there were a second (remote) staging area, but in the end 
+that wouldn't be that different from just leaving the changes on the remote working directory. 
