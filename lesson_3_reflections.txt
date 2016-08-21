@@ -1,17 +1,17 @@
-## When would you want to use a remote repository rather than keeping all your work local?
+## 3.1 When would you want to use a remote repository rather than keeping all your work local?
 
 A remote repository would be very useful when collaborating with someone else remotely. A 
 remote repository serves as a backup. It also provides an additional level of redundancy
 since the files are physically stored in two places.
 
-## Why might you want to always pull changes manually rather than having Git automatically stay
+## 3.2 Why might you want to always pull changes manually rather than having Git automatically stay
 up-to-date with your remote repository?
 
 If changes were automatic then code you are working on might change out from under you and cause
 confusion. Possibly this could work if there were a second (remote) staging area, but in the end 
 that wouldn't be that different from just leaving the changes on the remote working directory. 
 
-## Describe the differences between forks, clones, and branches. When would you use one instead of 
+## 3.3 Describe the differences between forks, clones, and branches. When would you use one instead of 
 another?
 
 A clone is a copy of a repository. Branches are different named paths through the commit history of
@@ -19,7 +19,7 @@ a single repository. Forks are a type of clone. The fork functionality is provid
 additional feature not found in Git itself. A fork clones a repository on Github's server from one 
 user's account to another and logs this clone as a way of providing attribution and/or social connectivity between the repositories. 
 
-## What is the benefit of having a copy of the last known state of the remote stored locally?
+## 3.4 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefits to this are similar to the benefits of placing changes in the staging area before 
 commits. It gives the user control over when to merge the state of the remote into their local
