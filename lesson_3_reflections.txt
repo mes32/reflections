@@ -36,3 +36,12 @@ Most aspects of collaborating this way would be neither easier nor harder. There
 setting up the shared server for collaborators. There is some extra work in setting up a mechanism for
 pull requests. There is not much that can be done for visualizing the project without building these 
 features or using someother software.
+
+## 3.6 When would you want to make changes in a separate branch rather than directly in master? What
+benefits does each approach have?
+
+You might want to use a separate branch when you are trying something out that you are not sure will
+work. This means you don't mess up you master branch. You might also want to use branches when you are
+collaborating. In this case the branch marks your changes to the project separately and allows them to
+be merged into the master branch of the project with granularity.
+
