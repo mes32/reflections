@@ -10,3 +10,11 @@ up-to-date with your remote repository?
 If changes were automatic then code you are working on might change out from under you and cause
 confusion. Possibly this could work if there were a second (remote) staging area, but in the end 
 that wouldn't be that different from just leaving the changes on the remote working directory. 
+
+## Describe the differences between forks, clones, and branches. When would you use one instead of 
+another?
+
+A clone is a copy of a repository. Branches are different named paths through the commit history of
+a single repository. Forks are a type of clone. The fork functionality is provided by Github as an 
+additional feature not found in Git itself. A fork clones a repository on Github's server from one 
+user's account to another and logs this clone as a way of providing attribution and/or social connectivity between the repositories. 
