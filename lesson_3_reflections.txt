@@ -24,3 +24,15 @@ user's account to another and logs this clone as a way of providing attribution 
 The benefits to this are similar to the benefits of placing changes in the staging area before 
 commits. It gives the user control over when to merge the state of the remote into their local
 repository. They can make this merge when ever they want to and even do so offline. 
+
+## 3.5 How would you collaborate without using Git or GitHub? What would be easier, and what would be 
+harder?
+
+Without GitHub one of the collaborators would have to host the remote themselves. For a small project
+with not too many collaborators this would just require a simple server of some sort. Each 
+collaborator would need a staging repository on the server (this replaces their forked repo on 
+GitHub). Pull requests would be sent via email or someother channel of communication outside of git.
+Most aspects of collaborating this way would be neither easier nor harder. There is some extra work in
+setting up the shared server for collaborators. There is some extra work in setting up a mechanism for
+pull requests. There is not much that can be done for visualizing the project without building these 
+features or using someother software.
